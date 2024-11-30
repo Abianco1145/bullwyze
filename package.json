@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@react-navigation/native": "^7.0.9",
+    "@stripe/stripe-react-native": "^0.40.0",
+    "axios": "^1.7.8",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-reanimated": "^3.16.3",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^4.3.0",
+    "react-native-vector-icons": "^10.2.0",
+    "stripe": "^17.4.0"
+  },
+  "name": "bullwyze",
+  "version": "1.0.0",
+  "main": "BuyCryptoScreen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

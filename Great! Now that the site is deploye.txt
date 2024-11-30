@@ -1,0 +1,44 @@
+Great! Now that the site is deployed, here's how to set up your custom domain www.bullwyze.com:
+
+    First, log into your domain registrar where bullwyze.com is registered
+
+    Add these DNS records:
+
+    Type  Name  Value
+    CNAME www   helpful-eclair-49fe16.netlify.app
+
+    In your Netlify dashboard:
+        Go to "Domain settings"
+        Click "Add custom domain"
+        Enter "www.bullwyze.com"
+        Follow the verification steps
+
+The DNS changes may take up to 48 hours to propagate, though it often happens much faster.
+
+Would you like me to help with any specific part of this process?
+
+
+After the deployment is complete, you'll need to:
+
+    Purchase the domain www.bullwyze.com from a domain registrar (like GoDaddy, Namecheap, or Google Domains) if you haven't already.
+
+    Configure your DNS settings at your domain registrar:
+        Add a CNAME record pointing www.bullwyze.com to your Netlify URL
+        Add an A record for the apex domain (bullwyze.com) pointing to Netlify's load balancer IPs:
+            75.2.60.5
+            99.83.190.57
+            75.2.70.75
+            99.83.179.108
+
+    In your Netlify dashboard:
+        Go to Domain Settings
+        Add your custom domain (www.bullwyze.com)
+        Enable HTTPS (Netlify provides free SSL certificates through Let's Encrypt)
+
+# Root domain
+bullwyze.com       A     76.76.21.21
+bullwyze.com       CNAME singular-phoenix-113819.netlify.app
+
+# WWW subdomain
+www.bullwyze.com   A     76.76.21.21
+www.bullwyze.com   CNAME singular-phoenix-113819.netlify.app

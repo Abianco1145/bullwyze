@@ -1,0 +1,18 @@
+Bullwyze/
+├── frontend/
+│   ├── src/
+│   │   ├── components/       # Reusable components (e.g., Buttons, Modals)
+│   │   ├── screens/          # Screens (e.g., Login, Dashboard, Markets)
+│   │   ├── services/         # API services
+│   │   ├── App.js            # Entry point
+│   │   ├── index.js          # App initialization
+│   ├── package.json          # React Native dependencies
+├── backend/
+│   ├── src/
+│   │   ├── routes/           # API endpoints
+│   │   ├── controllers/      # API logic
+│   │   ├── models/           # Database models
+│   │   ├── app.js            # Main server entry
+│   │   ├── config.js         # Environment configurations
+│   ├── package.json          # Node.js dependencies
+├── README.md                 # Documentation
